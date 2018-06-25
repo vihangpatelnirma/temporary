@@ -1,0 +1,83 @@
+
+.contact-us {
+    border: 1px solid #d4d3d3;
+    padding: 20px;
+}
+
+.contact-us .schedule-now {
+    padding: 10px 40px;
+    background: #db1174;
+    color: white;
+    text-align: center;
+    width: 200px;
+    margin: 10px auto;
+}
+
+.contact-us .schedule-now a {
+    text-decoration: none;
+    color: white;
+}
+
+.locate-us .address-detail a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.locate-us .address-detail img {
+    width : 200px;
+    height: 80px;
+}
+
+.contact-us-description h1 {
+    color : #db1174;
+}
+
+.contact-us-description .sub-text {
+    color : rgba(0, 0, 0, 0.5);
+    line-height: 25px;
+}
+
+.locate-us {
+    border: 1px solid #d4d3d3;
+    margin-top: 20px;
+    display: inline-block;
+    width: 100%;
+}
+
+.locate-us h1 {
+    color : #db1174;
+    margin-left: 20px;     
+}
+
+.locate-us .map {
+    width: 40%;
+    height: 400px;
+    display: inline-block;
+    float: left;
+    min-width: 260px;
+    margin-left: 20px;
+}
+
+.locate-us .address-detail {
+    float: left;
+    padding: 20px;
+    color : #db1174;
+}
+
+.contact-us .schedule-link {
+    text-decoration: underline;
+    color: #db1174;
+}
+
+@media (min-width: 320px) and (max-width: 1024px) { 
+
+    .locate-us .address-detail {
+        padding: 20px;
+        font-size: 14px; 
+    }    
+
+    .contact-us .schedule-now {
+        padding: 10px 20px;
+    }
+
+}

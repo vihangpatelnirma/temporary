@@ -1,0 +1,11 @@
+.error-page {
+    text-align: center;
+    color: #db1174;
+    border: 1px solid #d4d3d3;
+}
+
+.error-page .home-button {
+    padding: 20px;
+    color: white;
+    background: #db1174;
+}

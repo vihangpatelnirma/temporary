@@ -1,0 +1,180 @@
+#main-content .homepage .image-container img {
+	width: 100%;
+	opacity: 0.3;
+}
+
+.homepage h1 {
+	color: #db1174;
+	text-align: left;
+}
+
+.homepage .homepage-text {
+	position: absolute;
+	top: 0;
+	padding: 20px;
+	font-size: 16px;
+	text-align: justify;
+}
+
+.homepage .get-info-page {
+	color: #db1174;
+	text-decoration: underline;
+}
+
+.team-detail {
+	display: inline-block;
+}
+
+.team-detail .title-text {
+	color: #db1174;
+	border-bottom: 1px solid #db1174;
+	text-align: center;
+	padding: 10px 0;
+}
+
+.team-detail .doc-image {
+	float: left;
+	padding: 0 20px 20px;
+}
+
+.team-detail .team-text-wrapper {
+	text-align: justify;
+	padding: 0 10px;
+	font-size: 16px;
+}
+
+.team-detail .team-text-wrapper .doc-name {
+	color: #db1174;
+}
+
+.homepage .schedule-now {
+	display: none;
+}
+
+.testimonial {
+	display: inline-block;
+	width: 70%;
+	overflow: hidden;
+	position: relative;
+	left: 15%
+}
+
+@media (min-width: 320px) and (max-width: 1024px) {
+	.homepage .homepage-text {
+		position: relative;
+		padding: 0;
+		font-size: 14px;
+	}
+	#main-content .homepage .image-container img {
+		opacity: 1;
+	}
+	.homepage .schedule-now {
+		padding: 15px 0;
+		background: #db1174;
+		color: white;
+		text-align: center;
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		z-index: 10;
+		width: 100%;
+		display: block;
+		box-shadow: 0px -6px 5px -1px rgba(0, 0, 0, 0.4);
+	}
+	.homepage .schedule-now a {
+		text-decoration: none;
+		color: white;
+	}
+	.homepage .team-text-wrapper {
+		font-size: 16px;
+	}
+	
+	.testimonial {
+		width: 100%;
+		left: 0;
+	}
+}
+
+.testimonial-item {
+	display: inline-block;
+}
+
+.testimonial-img-container {
+	text-align: center;
+}
+
+.testimonial-item img {
+	width: 90%;
+}
+
+.testimonial-content {
+	padding: 24px;
+	font-size: 14px;
+	text-align: justify;
+}
+
+.know-more-container {
+    text-align: center;
+	font-size: 14px;
+	
+}
+
+.know-more {
+	background: #db1174;
+	color: white;
+	padding: 5px 10px;
+	text-decoration: none;
+	line-height: 25px;
+}
+
+.testimonial .left-button {
+	background: #db1174;
+	color: white;
+}
+
+.testimonial .right-button {
+	background: #db1174;
+	color: white;
+}
+
+.testimonial .title-text {
+	color: #db1174;
+	border-bottom: 1px solid #db1174;
+	text-align: center;
+	padding: 10px 0;
+}
+
+.news-update {
+	color: #db1174;
+	border-bottom: 1px solid #db1174;
+	text-align: center;
+	padding: 10px 0;
+}
+
+.published-on {
+	font-size: 11px;
+	padding: 12px 25px 0;
+	color: #666666;
+}
+
+.reviews {
+	padding: 10px;
+	width: 100%;
+}
+
+.review-description {
+	font-size: 14px;
+	font-style: italic;
+	padding: 5px 0;
+	text-align: justify;
+}
+
+.reviewer-name {
+	text-align: right;
+}
+
+.review-container {
+	min-height: 200px;
+	display: flex;
+	align-items: center;
+}

@@ -1,0 +1,35 @@
+.team-tab {
+    padding: 10px;
+	border: 1px solid #d4d3d3;
+    display: inline-block;
+}
+
+.team-tab .doc-image {
+    width: 245px;
+    float: left;
+    padding: 22px 22px 10px 10px;
+}
+
+
+.team-tab .doc-image img{
+    width: 100%;
+}
+
+.team-tab .team-text-wrapper a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.team-tab .team-text-wrapper {
+    text-align: justify;
+    font-size: 14px;
+}
+
+.team-tab .team-text-wrapper h3{
+    color: #db1174;
+}
+
+.team-tab .team-text-wrapper b{
+    color: #db1174;
+}

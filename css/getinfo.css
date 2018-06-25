@@ -1,0 +1,89 @@
+.get-info {
+    padding: 20px;
+    border: 1px solid #d4d3d3;
+}
+
+.get-info .form-container {
+    
+}
+
+.get-info h4 {
+    color: #db1174;
+    text-align: justify;
+}
+
+.get-info .form-container .input-ele {
+    width: 80%;
+    padding: 10px 0 20px;
+    margin: auto;
+}
+
+.get-info .form-container .input-ele input {
+    border: none;
+    border-bottom : 1px solid #db1174;
+    width: 100%;
+    outline: none;
+}
+
+.get-info .form-container .input-ele label {
+    color: #db1174;
+}
+
+.get-info .form-container .input-ele .radio-container input {
+    border: none;
+    width: 10%;
+    border-bottom : 1px solid #db1174;
+    outline: none;
+}
+
+
+.get-info select {
+    border: none;
+    border-bottom : 1px solid #db1174;
+    padding: 10px;
+    clear: both;
+    max-width: 160px;
+}
+
+.get-info form button {
+    padding: 10px 20px;
+    color : white;
+    background: #db1174;
+    border: none;
+    margin: auto;
+    left: 50%;
+}
+
+.get-info .form-container .input-ele .radio-container #other-condition{
+    width: 200px;
+    margin-left: 100px; 
+    padding: 10px 0;
+}
+
+
+@media (min-width: 320px) and (max-width: 1024px) { 
+
+	.get-info .form-container .input-ele .radio-container #other-condition {
+		margin-left: 50px;  
+	}	
+
+}
+
+.success-overlay {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 10000;
+    overflow: no-scroll;
+}
+
+.success-overlay h4 {
+    background: #db1174;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}

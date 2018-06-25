@@ -1,0 +1,43 @@
+
+.patients-tab {
+
+}
+
+.patients-tab  .info-text {
+	color : #db1174;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.patients-tab .question-type {
+	margin-top: 40px;	
+	padding: 20px;
+	border: 1px solid #d4d3d3;
+}
+
+.patients-tab .header-text {
+	color: #db1174;;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 5px;
+}
+
+.patients-tab .sub-header-text {
+	padding: 5px;
+	text-align: justify;
+}
+
+.patients-tab .answer-points {
+	font-size: 14px;
+}
+
+.patients-tab .question-type li{
+	padding: 10px 0;
+	text-align: justify;
+}
+
+.patients-tab .question-type ul li{
+	padding: 10px 0;
+	text-align: justify;
+	margin-left: 50px;
+}

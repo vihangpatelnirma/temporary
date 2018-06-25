@@ -1,0 +1,53 @@
+.dashboard {
+    text-align: center;
+}
+
+.dashboard .in-active .logo-container {
+    padding: 0 !important;
+}
+
+.dashboard .logo-container img {
+    width: 220px;
+    height: 80px;
+}
+
+.dashboard .input-box button {
+    background: #db1174;
+    color : white;
+    padding: 5px;
+}
+
+.dashboard .in-active table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.dashboard table, th, td {
+    border: 1px solid black;
+}
+
+.dashboard table thead {
+    font-size: 18px;
+}
+
+.dashboard table tbody {
+    font-size: 14px;
+}
+
+.dashboard .in-active {
+    display: none;
+}
+
+body { 
+    user-select: unset !important;
+}
+
+.dashboard table tbody td i {
+    float: left;
+    padding: 4px;
+}
+
+.dashboard table tbody td a {
+    text-decoration: none;
+    color: #db1174;
+}

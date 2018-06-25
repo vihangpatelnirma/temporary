@@ -1,0 +1,21 @@
+this["JST"] = this["JST"] || {};
+
+this["JST"]["templates/researchInfo.handlebars"] = function(obj) {
+obj || (obj = {});
+var __t, __p = '', __e = _.escape;
+with (obj) {
+__p += '<div class="patients-tab">\n\n\t<div class="info-text">\n\t\tResearch Information\n\t</div>\n\n    <div class="question-type">\n\n\t\t<div class="header-text">\n\t\t\t  \n\t\t\t \t60 Peer-Reviewed Studies on Medical Marijuana\n\t\t\t\n\t\t</div>\n\n\t\t<div class="sub-header-text">\n            <p>\n                <a href="https://medicalmarijuana.procon.org/view.resource.php?resourceID=000884">Results of 60 scientific research studies</a> \n\t\t\t\tconducted between 1990 and 2014 that examine the impact of medical marijuana on various medical and mental health conditions.\n            </p>\n\n            <p>\n                NIH Research on Marijuana and Cannabinoids\n            </p>\n\n            <p>\n                Details federal research, funded at more than $100 million per year, on the health benefits of medical cannabis.\n            </p>\n\n            <p>\n                Marijuana as Medicine\n            </p>\n\n            <p>\n                Recent information from the federal government on medical uses of cannabis\n            </p>\n\t\t</div>\n\n\t</div>\n\n  \n\n\t<div class="question-type">\n\n\t\t<div class="header-text">\n\t\t\tDo Medical Marijuana Laws Reduce Addiction and Deaths Related to Pain Killers?\n\t\t</div>\n\n\t\t<div class="sub-header-text">\n            <a href="https://www.rand.org/pubs/external_publications/EP67480.html">\n\t\t\tReport from the prestigious RAND Corporation research organization.\n\t\t\t</a>\n\t\t</div>\n\n\t</div>\n\n\t<div class="question-type">\n\n\t\t<div class="header-text">\n\t\t\tAfter Medical Marijuana Legalized, Medicare Prescriptions Drop For Many Drugs\n\t\t</div>\n\n\t\t<div class="sub-header-text">\n\t\t\t<a target="_blank" href="https://www.npr.org/sections/health-shots/2016/07/06/484977159/after-medical-marijuana-legalized-medicare-prescriptions-drop-for-many-drugs">\n\t\t\t\tNational Public Radio story discussing a study in the prestigious Health Affairs academic journal.\n\t\t\t</a>\n\t\t</div>\n\n\t</div>\n\n\t<div class="question-type">\n\n\t\t<div class="header-text">\n\t\t\tOpioid Use Lower In States That Eased Marijuana Laws\n\t\t</div>\n\n\t\t<div class="sub-header-text">\n\t\t\t<a target="_blank" href="https://www.npr.org/sections/health-shots/2018/04/02/598787768/opioid-use-lower-in-states-that-eased-marijuana-laws">\n\t\t\t\tNew research suggest​s​ medical marijuana ​can reduce the opioid drug epidemic ravaging the United States.\n\t\t\t</a>\n\t\t</div>\n\n\t</div>\n\n</div>';
+
+}
+return __p
+};
+
+this["JST"]["templates/researchPolicy.handlebars"] = function(obj) {
+obj || (obj = {});
+var __t, __p = '', __e = _.escape;
+with (obj) {
+__p += '<div class="patients-tab">\n\t<div class="info-text">\n\t\tPolicy Issues\n\t</div>\n\n\t<div class="question-type">\n\n\t\t<div class="header-text">\n\t\t\tIs cannabis treatment regulated by the U.S. Food and Drug Administration (FDA)?\n\t\t</div>\n\n\t\t<div class="sub-header-text">\n\t\t\tNo. But the FDA has approved two medications that contain cannabinoids, the major chemical in medical marijuana.\n\t\t</div>\n\n\t</div>\n\n\t<div class="question-type">\n\n\t\t<div class="header-text">\n\t\t\tHave other states legalized the use of medical cannabis?\n\t\t</div>\n\n\t\t<div class="sub-header-text">\n\t\t\tYes. Currently 28 states and the District of Columbia allow marijuana use for medical purposes.\n\t\t</div>\n\n\t</div>\n\n\t<div class="question-type">\n\n\t\t<div class="header-text">\n            Have other countries legalized the use of medical cannabis?\n\t\t</div>\n\n\t\t<div class="sub-header-text">\n            Yes. Canada, Israel, Germany, Finland, and Italy are among the growing number of nations that permit medical marijuana.\n\t\t</div>\n\n\t</div> \n\n\t<div class="question-type">\n\n\t\t<div class="header-text">\n\t\t\tCan I smoke marijuana or grow my own marijuana?\n\t\t</div>\n\n\t\t<div class="sub-header-text">\n           No. Both activities are prohibited by Florida law.\n\t\t</div>\n\t</div> \n\n</div>';
+
+}
+return __p
+};

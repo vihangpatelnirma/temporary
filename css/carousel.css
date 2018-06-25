@@ -1,0 +1,103 @@
+.testimonial .main-container {
+	width: 80%;
+	position: relative;
+	margin: auto;
+	margin-top: 100px;
+	border: 1px solid black;
+	overflow: scroll;
+	white-space: nowrap;
+}
+
+.testimonial .box {
+	width: 180px;
+	height: 160px;
+	border: 1px solid gray;
+	display: inline-block;
+}
+
+.testimonial .left-button {
+	position: absolute;
+	left: 0px;
+	height: 20px;
+	width: 20px;
+	top: 50%;
+	padding: 5px;
+	background: #b1bfb87a;
+}
+
+.testimonial .right-button {
+	position: absolute;
+	right: 0px;
+	height: 20px;
+	width: 20px;
+	top: 50%;
+	padding: 5px;
+	background: #b1bfb87a;
+}
+
+.testimonial .items-chunk {
+	position: relative;
+	display: none;
+	transition: 0.6s ease-in-out left;
+	-webkit-transition: 0.6s ease-in-out left;
+	-moz-transition: 0.6s ease-in-out left;
+	-o-transition: 0.6s ease-in-out left;
+}
+
+.testimonial .active.left {
+	position: relative;
+	display: inline-block;
+	left: -100%;
+}
+
+.testimonial .active.right {
+	position: relative;
+	display: inline-block;
+	left: 100%;
+}
+
+.testimonial .active {
+	position: relative;
+	display: inline-block;
+	left: 0%;
+}
+
+.testimonial .next {
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	left: 100%;
+}
+
+.testimonial .prev {
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	left: -100%;
+}
+
+.testimonial .next.left {
+	left: 0%;
+}
+
+.testimonial .prev.right {
+	left: 0%;
+}
+
+.testimonial .disable {
+	opacity: 0.2;
+}
+
+@media (max-width: 768px) {
+	.testimonial .main-container {
+		width: 230px;
+		position: relative;
+		margin: auto;
+		margin-top: 100px;
+		border: 1px solid black;
+		overflow: scroll;
+		white-space: nowrap;
+	}
+}
