@@ -36,37 +36,7 @@ define('homepage', [
                 this
                     .$el
                     .scrollTop(0);
-                new Carousel({el: '.testimonial', margin: 0, visibleItems: 3, mobileVisibleItems: 1, autoSlide: false})
 
-                var index = 0,
-                    _this = this,
-                    $reviewEl = this.$el.find('.reviews'),
-                    $name = $reviewEl.find(".reviewer-name"),
-                    $description = $reviewEl.find(".review-description"),
-                    $rating = $reviewEl.find(".review-rating");
-
-                setInterval(function() {
-                    var review = appConfig.REVIEWS[index]
-
-                    if(!review.text.length) {
-                        index++
-                        index = index % appConfig.REVIEWS.length;
-                        return
-                    }
-
-                    $description.text(review.text)
-                    $name.text('- ' + review.name)
-
-                    $reviewEl.fadeIn(1000)
-
-                    setTimeout(function() {
-                        $reviewEl.fadeOut(1000)
-                    },3000)
-
-                    index++
-                    index = index % appConfig.REVIEWS.length;
-                    
-                },5500)
             }
         })
 
