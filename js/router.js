@@ -11,15 +11,8 @@ function(Backbone, ErrorPage){
 
 
 		routes: {
-				"": "home",
-				"medical-cannabis/:subType" : "medInfo",
-				"team/:subType" : "team",
-				"patients/:subType" : "patients",
+				"": "home",			
 				"contact-us": "contactUs",
-				"prescriptions/:subType" : "prescription",
-				"research/:subType" : "research",
-				"get-info" : "getInfo",
-				"admin/dashboard" : "dashboard",
 				"error" : "error"
 		},
 			
@@ -31,55 +24,6 @@ function(Backbone, ErrorPage){
 			})	 
 		},
 
-		team: function(subType) {
-			require(['team'], function(Team) {
-				window.contentInstance = new Team({
-					model : window.mainModel,
-					subType : subType
-				}); 
-			})
-			
-		},
-
-		patients: function(subType) {
-			require(['patients'],function(Patients) {
-				window.contentInstance = new Patients({
-					model : window.mainModel,
-					subType : subType
-				});
-			});
-		},
-
-		prescription : function(subType) {
-			require(['prescription'], function(Prescription){
-				window.contentInstance = new Prescription({
-					model : window.mainModel,
-					subType : subType
-				});
-			})
-			
-		},
-
-		research : function(subType) {
-			require(['research'], function(Research){
-				window.contentInstance = new Research({
-					model : window.mainModel,
-					subType : subType
-				});
-			})
-			
-		},
-
-		medInfo : function(subType) {
-			require(['medinfo'], function(MedInfo){
-				window.contentInstance = new MedInfo({
-					model : window.mainModel,
-					subType : subType
-				});
-			})
-			
-		},
-
 		contactUs: function(){
 			require(['contactus'], function(ContactUs){
 				window.contentInstance = new ContactUs({
@@ -87,22 +31,6 @@ function(Backbone, ErrorPage){
 				});
 			})
 			
-		},
-
-		getInfo: function() {
-			require(['getinfo'], function(GetInfo){
-				window.contentInstance = new GetInfo();			
-			})
-		},
-
-		dashboard: function() {
-			require(['dashboard'], function(Dashboard){ 
-				window.contentInstance = new Dashboard();
-			})
-		},
-
-		error: function() {
-			window.contentInstance = new ErrorPage();
 		},
 
 		execute : function(callback, args, name) {
