@@ -108,39 +108,12 @@ const socialProfile = {
 
 const seoData = {
 	"/": {
-		title: "Medical Marijuana Physician | FREE Phone consultation | Tanmay Patel MD",
+		title: "Jalpa Dance Academy",
 		keywords:
-			"Marijuana, Cannabis, Medical Marijuana ,Medical cannabis, Provider ,Physicians, Treatment center, Clinic , Cannabies legalized , FREE Marijuana physician, Medical Marijuana physician, Pasco, Trinity, Hudson, Holiday, Florida",
+			"Dance Academy, Indian Dances, Bharatnatyam , Chicago Dance Academy, Bollywood Dances, Indian Traditional Dances, Chicago Indian Traditional Dances",
 		description:
-			"Marijuana Clinic - is a full-service, state-registered medical marijuana treatment center located in New Port Richey, Florida. We opened our doors in 2017 with a deep commitment to providing compassionate individualized care for adult patients suffering from serious medical conditions and terminal illnesses.",
-	},
-	"/get-info": {
-		title: "FREE Phone Consulation Form | Natural Clinic MD, Tanmay Patel",
-		keywords:
-			"Free Phone Consultation, Marijuana, Cannabis, Medical Marijuana ,Medical cannabis, Provider ,Physicians, Treatment center, Clinic , Cannabies legalized , FREE Marijuana physician, Medical Marijuana physician, Pasco, Trinity, Hudson, Holiday, Florida",
-		description:
-			"Free telephone consultation available. Please fill out the form below if you think you might qualify for treatment with medical cannabis. Dr. Patel will call you within 2 to 3 days to gather more information about your medical condition and determine whether medical marijuana might be right for you.",
-	},
-	"/contact-us": {
-		title:
-			"Contact Us | Medical Marijuana cannabies in Pasco, Hernando, Brevard, Pinellas, Hillsborough and nearby",
-		keywords:
-			"Free Phone Consultation, Marijuana, Cannabis, Medical Marijuana ,Medical cannabis, Provider ,Physicians, Treatment center, Clinic , Cannabies legalized , FREE Marijuana physician, Medical Marijuana physician, Pasco, Trinity, Hudson, Holiday, Florida",
-		description:
-			"Medical Marijuana/cannabies in Pasco, Hernando, Brevard, Pinellas, Hillsborough and nearby counties.",
-	},
-	"/team/doctors": {
-		title: "Our Team | Tanmay Patel, MD | Natural Clinic MD | Medical Marijuana and Cannabies in Florida",
-		keywords:
-			"Marijuana, Cannabis, Medical Marijuana ,Medical cannabis, Provider ,Physicians, Treatment center, Clinic , Cannabies legalized , FREE Marijuana physician, Medical Marijuana physician, Pasco, Trinity, Hudson, Holiday, Florida",
-		description:
-			"Tanmay Patel, MD is a board certified internist with over 15 years of clinical experience. Throughout his career he has served and treated many patients in pain and with chronic debilitating diseases.",
-	},
-	"/patients/how-to-register" : {
-		"title": "How To Get A Medical Marijuana Card in Florida | Natural Clinic MD | Tanmay Patel MD",
-		"description" : "Find out how to get and register for a medical marijuana card in your state. Check your eligibility",
-		"keywords" : "Eligibility for medical marijuana, Register for medical Marijuana"
-	},
+			"Dance Academy, Indian Dances, Bharatnatyam , Chicago Dance Academy, Bollywood Dances, Indian Traditional Dances, Chicago Indian Traditional Dances",
+	},	
 	addressSchema: addressSchema,
 }
 
