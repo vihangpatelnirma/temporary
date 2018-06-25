@@ -1,11 +1,14 @@
 #main-content .homepage .image-container img {
 	width: 100%;
-	opacity: 0.3;
+	opacity: 0.5;
 }
 
-.homepage h1 {
-	color: #db1174;
-	text-align: left;
+.homepage {
+	color : gray;
+}
+
+.homepage .dance-text {
+	font-size: 35px;
 }
 
 .homepage .homepage-text {
@@ -13,7 +16,8 @@
 	top: 0;
 	padding: 20px;
 	font-size: 16px;
-	text-align: justify;
+	text-align: center;
+	color: white
 }
 
 .homepage .get-info-page {
@@ -60,13 +64,20 @@
 }
 
 @media (min-width: 320px) and (max-width: 1024px) {
+	#main-content {
+		height: 60px;
+	}
+
 	.homepage .homepage-text {
-		position: relative;
+		color: #db1174;
+		left: 0;
+		top: 0;
 		padding: 0;
 		font-size: 14px;
 	}
 	#main-content .homepage .image-container img {
-		opacity: 1;
+		opacity: 0.5;
+		display: none;
 	}
 	.homepage .schedule-now {
 		padding: 15px 0;

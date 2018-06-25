@@ -76,7 +76,7 @@ this["JST"]["templates/homepage.handlebars"] = function(obj) {
 obj || (obj = {});
 var __t, __p = '', __e = _.escape;
 with (obj) {
-__p += '<div class=\'homepage\'>\n\n\t\n</div>\n\n';
+__p += '<div class=\'homepage\'>\n\n\t<div class="image-container">\n\n\t\t<img src="/images/main.jpeg" />\n\n\t</div>\n\n\t<div class="homepage-text">\n\n\t\t<span class="dance-text">Dance is a Poem</span>\n\n\t\t<span>of which each movement is a word.</span>\n\n\t</div>\n\n</div>\n\n';
 
 }
 return __p

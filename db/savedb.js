@@ -7,7 +7,7 @@ var mongodb = null;
 function connectMongo() {
 
     // Connect to mongo db
-    var uri = process.env.mongoCreds
+    var uri = process.env.mongoCreds || ''
     MongoClient.connect(uri, function(err, db){
         mongodb = db
     });
