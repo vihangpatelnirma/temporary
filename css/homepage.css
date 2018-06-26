@@ -64,16 +64,13 @@
 }
 
 @media (min-width: 320px) and (max-width: 1024px) {
-	#main-content {
-		height: 60px;
-	}
+	
 
 	.homepage .homepage-text {
 		color: #db1174;
-		left: 0;
-		top: 0;
-		padding: 0;
+		padding: 20px;
 		font-size: 14px;
+		position: relative;
 	}
 	#main-content .homepage .image-container img {
 		opacity: 0.5;
