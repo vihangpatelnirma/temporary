@@ -76,7 +76,7 @@ this["JST"]["templates/homepage.handlebars"] = function(obj) {
 obj || (obj = {});
 var __t, __p = '', __e = _.escape;
 with (obj) {
-__p += '<div class=\'homepage\'>\n\n\t<div class="image-container">\n\n\t\t<img src="/images/main.jpeg" />\n\n\t</div>\n\n\t<div class="homepage-text">\n\n\t\t<span>Site is under construction !!!</span>\n\t\t<br/>\n\t\t<span> Reach us on : </span>\n\t\t<br/> \n\t\t<span>\n\t\t\t<a href="mailto:Jalpa.dance.academy@gmail.com">\n\t\t\t\tjalpa.dance.academy@gmail.com\n\t\t\t</a>\n\t\t</span>\n\t\t<br/> \n\t\t<span>\n\t\t\t<a href="tel:(678) 481-7207">\n\t\t\t\t(678) 481-7207\n\t\t\t</a>\n\t\t</span>\n\n\t</div>\n\n</div>\n\n';
+__p += '<div class=\'homepage\'>\n\n\t<marquee>This text will scroll from right to left</marquee>\n\n\t<div class="image-container">\n\n\t\t<img src="/images/main.jpeg" />\n\n\t</div>\n\n\t<div class="homepage-text">\n\n\t\t<span>Site is under construction !!!</span>\n\t\t<br/>\n\t\t<span> Reach us on : </span>\n\t\t<br/> \n\t\t<span>\n\t\t\t<a href="mailto:Jalpa.dance.academy@gmail.com">\n\t\t\t\tjalpa.dance.academy@gmail.com\n\t\t\t</a>\n\t\t</span>\n\t\t<br/> \n\t\t<span>\n\t\t\t<a href="tel:(678) 481-7207">\n\t\t\t\t(678) 481-7207\n\t\t\t</a>\n\t\t</span>\n\n\t</div>\n\n</div>\n\n';
 
 }
 return __p
